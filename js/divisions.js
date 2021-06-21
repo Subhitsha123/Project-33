@@ -12,8 +12,6 @@ class Divisions {
     display() {
         var pos = this.body.position;
         rectMode(CENTER);
-        stroke(255);
-        strokeWeight(1);
         fill("white");
         rect(pos.x, pos.y, this.w, this.h);
     }
